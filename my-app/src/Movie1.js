@@ -76,7 +76,7 @@ return  <div className="container" ><p>There are no movies in the database</p></
                     <td>{movie.dailyRentalRate} </td>
                     <td><button type="button" className="btn btn-primary" onClick={()=>this.handleOnDelete (movie)}>Delete</button> </td> 
                </tr>
-
+                
 
                 ))
             }
